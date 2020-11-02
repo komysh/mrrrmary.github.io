@@ -1,87 +1,208 @@
-<html><head>
-    <style>
-        body {
-            margin: 0;
-        }
+<html>
 
-        .layout {
-            width: 100%;
-            height: 100%;
-            background-color: burlywood;
-        }
+<style type="text/css">
 
-        .header {
-            background-color:black; 
-            height: 100px;
-            color: white;
-            text-align: center;
-            font-variant-caps: all-petite-caps;
-        }
+   
+.background {
+ position: relative;
+width: 1440px;
+height: 900px;
+}
 
-        .menu {
-            background-color: orange;
-            width: 200px; 
-            padding: 15 0 0 0;
-        }
+.name {
+    position: absolute;
+width: 541.4px;
+height: 66.02px;
+left: 78.56px;
+top: 147.36px;
 
-        .main {
-            background-color:white;
-        }
+font-family: Montserrat;
+font-style: italic;
+font-weight: normal;
+font-size: 50px;
+line-height: 61px;
 
-        .menu ul {
-            margin: 0;
-            padding: 0;
-        }
+color: #FFB7EB;
+}
 
-        .menu li {
-            display: block;
-        }
+.arrow1 {
+    position: absolute;
+width: 30.59px;
+height: 21.16px;
+left: 77.47px;
+top: 331.34px;
+}
 
-        .menu li a {
-            text-decoration: none;
-            display: block;
-            padding: 8px 0;
-            background-color: violet;
-            color: white;
-            margin: 6px;
-            text-align: center;
-        }
+.arrow2 {
+    position: absolute;
+width: 30.59px;
+height: 21.16px;
+left: 77.47px;
+top: 392.13px;
+}
 
-        .menu li a:hover {
-            background-color: black;
-        }
+.arrow3 {
+    position: absolute;
+width: 30.59px;
+height: 21.16px;
+left: 77.47px;
+top: 453.21px;
 
-        .logo {
-            text-align: center;
-        }
+}
 
-        .logo img {
-            margin: 6px;
-        }
-    </style>
+.portfolio {
+    position: absolute;
+width: 300px;
+height: 41px;
+left: 113.1px;
+top: 321.71px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 33.3563px;
+line-height: 41px;
+
+text-decoration: none;
+
+color: #FFB7EB;
+
+
+}
+
+.education {
+    position: absolute;
+width: 305px;
+height: 41px;
+left: 113.56px;
+top: 382.21px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 33.3563px;
+line-height: 41px;
+
+text-decoration: none;
+
+color: #FFB7EB;
+}
+
+.tutorials {   
+ position: absolute;
+width: 585px;
+height: 41px;
+left: 113.56px;
+top: 443.29px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 33.3563px;
+line-height: 41px;
+
+text-decoration: none;
+
+color: #FFB7EB;
+}
+
+.inst {
+    position: absolute;
+width: 44.19px;
+height: 44.19px;
+left: 207.08px;
+top: 764.47px;
+}
+
+.be {
+    position: absolute;
+width: 44.19px;
+height: 27.71px;
+left: 280.28px;
+top: 772.71px;
+}
+
+.tg {
+    position: absolute;
+width: 44.19px;
+height: 38.94px;
+left: 349.47px;
+top: 767.1px;
+
+}
+
+.vk {
+    position: absolute;
+width: 44.19px;
+height: 25.32px;
+left: 420.66px;
+top: 773.91px;
+}
+
+.logo {
+    position: absolute;
+width: 83.28px;
+height: 55.81px;
+left: 78.56px;
+top: 758.6px;
+}
+
+a:hover {
+    color: E511AA; /* Цвет ссылки при наведении на нее курсора мыши */  
+   }
+ 
+ @font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Light.ttf);
+   }
+   P {
+    font-family: Montserrat;
+   }
+   </style>
+
+<head>
+<title>
+ мой сайт
+</title>
+<body>
+
+ <img src="back.jpg" class="background" />
+
+<p class="name">Мария Чернышева</p>
+<a href = "portfolio.html" class="portfolio">портфолио работ</a>
+<a href = "education.html" class="education">мое образование</a>
+<a href = "tutorials.html" class="tutorials">бесплатные полезные материалы</a>
+
+<img src="arrow.png" class="arrow1">
+<img src="arrow.png" class="arrow2">
+<img src="arrow.png" class="arrow3">
+
+<img src="logo.svg" class="logo">
+
+<img src="inst.png" class="inst">
+<a href = "https://www.instagram.com/mrrrmary/" class="inst"> </a>
+
+<img src="be.png" class="be">
+<a href = "https://www.behance.net/mrrrmary" class="be"> </a>
+
+<img src="tg.png" class="tg">
+<a href = "http://t.me/mrrrmary" class="tg"> </a>
+
+<img src="vk.png" class="vk">
+<a href = "https://vk.com/0chernysheva" class="vk"> </a>
+
+
+
+
+ <a href = "шпаргалка.html">шпаргалка</a>
+
+
+
+
+
+
+</body>
+
 </head>
 
-<body>
-    <table class="layout" border="0" cellspacing="0">
-        <tbody><tr>
-            <td colspan="2" class="header">
-                <h1>заголовок</h1>
-            </td>
-        </tr>
-        <tr>
-            <td class="menu" valign="top">
-                <div class="logo">
-                <a href="#">LOGO</a>
-                 </div>
-                <ul>
-                    <li><a href="#">Ссылка 1</a></li>
-                    <li><a href="#">Ссылка 2</a></li>
-                    <li><a href="#">Ссылка 3</a></li>
-                    <li><a href="#">Ссылка 4</a></li>
-                    <li><a href="#">Ссылка 5</a></li>
-                </ul>
-
-            </td><td class="main">4</td>
-        </tr>
-    </tbody></table>
-</body></html>
+</html>
